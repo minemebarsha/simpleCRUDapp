@@ -38,11 +38,11 @@ def convertToZeroOne(in_img_filename, in_cordinate_file, out_file_loc):
     imN.save(out_file_loc)
 
 # ==============================================Main============================================
-img_top_loc = "/home/robbani/Downloads/Images/RWTH-PHOENIX-v02-split01-CLEANED.compound/"
+img_top_loc = "/u/koller/work/signlanguage/setups/features/phoenix-cont/all.20120120/magdalena-orig/data/01.feature-extraction-orig-210-260-TRAIN-colorChannels3.dump/RWTH-PHOENIX-v02-split01-CLEANED.compound/"
 
-cordinate_loc = "/home/robbani/Downloads/Cordinates/RWTH-PHOENIX-v02-split01-CLEANED.compound/"
+cordinate_loc = "/work/cv2/koller/features/phoenix-cont/all.20120120/magdalena-tracking-groundtrouth-newIds.20120626/data/manualAnnotations/test/right-hand-frames/RWTH-PHOENIX-v02-split01-CLEANED.compound/"
 
-out_dir = "/home/robbani/Downloads/traincordiantes/RWTH-PHOENIX-v02-split01-CLEANED.compound/"
+out_dir = "/work/cv3/zaman/TraningImageOutput/"
 
 sub_dir_with_img = "/1/u/signlanguage/phoenix/video/divx2pass/all-years"
 
